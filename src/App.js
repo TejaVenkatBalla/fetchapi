@@ -1,6 +1,7 @@
 import Navbar from './components/nav';
 import MyComponent from './components/fet';
 import './App.css'
+import Translation from './components/Translate';
 
 
 
@@ -13,6 +14,7 @@ function App() {
       <p>End point :https://jsonplaceholder.typicode.com/users</p>
       <Navbar />
       <MyComponent />
+      <Translation />
     </div>
   );
 }
