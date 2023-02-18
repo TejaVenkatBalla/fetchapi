@@ -48,6 +48,7 @@ function Translation() {
 
   return (
     <div>
+      <p>Below you can translate english to spanish</p>
       <form onSubmit={handleFormSubmit}>
         <label>
           Text to translate:
