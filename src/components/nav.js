@@ -5,8 +5,8 @@ function Navbar() {
     <nav>
       <ul>
         <li><a href="https://www.google.com/">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="https://www.google.com/">About</a></li>
+        <li><a href="https://www.google.com/">Contact</a></li>
       </ul>
     </nav>
   );
