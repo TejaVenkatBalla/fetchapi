@@ -1,49 +1,31 @@
-.MyComponent {
-  max-width: 600px;
-  margin: 0 auto;
+/* App.css
+
+body {
+  margin: 0;
+  padding: 0;
   font-family: Arial, sans-serif;
 }
 
-.MyComponent h2 {
-  font-size: 28px;
+h1 {
   text-align: center;
+  margin-top: 50px;
 }
 
-.MyComponent form {
+p {
+  text-align: center;
+  font-size: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+} */
+
+/* .App {
   display: flex;
   flex-direction: column;
-  margin: 20px 0;
-}
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+} */
 
-.MyComponent label {
-  font-size: 18px;
-  margin-bottom: 10px;
-}
 
-.MyComponent input {
-  padding: 10px;
-  font-size: 16px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  margin-bottom: 20px;
-}
 
-.MyComponent button {
-  padding: 10px;
-  font-size: 16px;
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.MyComponent button:hover {
-  background-color: #3e8e41;
-}
-
-.MyComponent p {
-  font-size: 18px;
-  margin-top: 20px;
-}
 

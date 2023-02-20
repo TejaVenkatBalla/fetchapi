@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
+
 function MyComponent() {
   const [users, setUsers] = useState([]);
   const [name, setName] = useState('');
@@ -22,14 +23,14 @@ function MyComponent() {
   }
 
   return (
-    <div>
+    <div className='Fetch'>
       <h2>Users</h2>
       <form onSubmit={handleSubmit}>
         <label>
           Name:
           <input type="text" value={name} onChange={(event) => setName(event.target.value)} />
         </label>
-        <button type="submit">Get User Details</button>
+        <button type="submit" class="btn btn-primary">Get User Details</button>
       </form>
       <p>ID: {userDetails.id}</p>
       <p>Address: {userDetails.address}</p>
